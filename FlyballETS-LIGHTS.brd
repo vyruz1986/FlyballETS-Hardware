@@ -70,6 +70,13 @@
 LightsBoard v1
 http://bit.ly/1ErZ5QD
 LICENSE: CC-BY-SA</text>
+<text x="142.24" y="-48.26" size="2.54" layer="48">Alex Goris</text>
+<text x="88.9" y="-60.96" size="2.54" layer="48">FlyballETS
+LightsBoard v1
+http://bit.ly/1ErZ5QD
+LICENSE: CC-BY-SA</text>
+<dimension x1="83.82" y1="0" x2="83.82" y2="68.58" x3="93.98" y3="34.29" textsize="1.778" layer="48"/>
+<dimension x1="83.82" y1="68.58" x2="0" y2="68.58" x3="41.91" y3="78.74" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1432,6 +1439,33 @@ Beckman Helitrim 25</description>
 </package>
 </packages>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+<package name="A4L-LOC">
+<description>&lt;b&gt;FRAME&lt;/b&gt; DIN A4 landscape with doc field</description>
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="48"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="48"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="48"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="48"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="48"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="48"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="48"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="48"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="48"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="48"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="48"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="48"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="48"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="48"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="48"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="48"/>
+<text x="217.17" y="15.24" size="2.54" layer="48" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="48"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1634,6 +1668,7 @@ design rules under a new name.</description>
 <element name="L1-5" library="bt_con-jst-xh" package="B4B-XH" value="04-JST-B4B-XH-A" x="12.7" y="7.62"/>
 <element name="C2" library="resistor" package="C025-050X050" value="0.01uF" x="58.42" y="17.78" rot="R180"/>
 <element name="LSR" library="bt_con-jst-xh" package="B2B-XH" value="02-JST-B2B-XH-A" x="48.26" y="60.96"/>
+<element name="U$1" library="frames" package="A4L-LOC" value="" x="-76.2" y="-68.58"/>
 </elements>
 <signals>
 <signal name="GND">

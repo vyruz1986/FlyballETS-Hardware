@@ -3599,55 +3599,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="_custom">
-<packages>
-<package name="LM2596-BOARD">
-<wire x1="0" y1="0" x2="21.59" y2="0" width="0.127" layer="21"/>
-<wire x1="21.59" y1="0" x2="21.59" y2="40.64" width="0.127" layer="21"/>
-<wire x1="21.59" y1="40.64" x2="0" y2="40.64" width="0.127" layer="21"/>
-<wire x1="0" y1="40.64" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="VOUT" x="2.54" y="38.1" drill="0.8" shape="square"/>
-<pad name="GND@2" x="19.05" y="38.1" drill="0.8" shape="square"/>
-<pad name="GND@1" x="19.05" y="2.54" drill="0.8" shape="square"/>
-<pad name="VIN" x="2.54" y="2.54" drill="0.8" shape="square"/>
-<text x="7.62" y="20.32" size="1.27" layer="21">LM2596</text>
-</package>
-</packages>
-<symbols>
-<symbol name="LM2596-BOARD">
-<pin name="GND@2" x="12.7" y="12.7" length="middle" rot="R180"/>
-<pin name="GND@1" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="VIN" x="-5.08" y="0" length="middle"/>
-<pin name="VOUT" x="-5.08" y="12.7" length="middle"/>
-<polygon width="0.254" layer="94">
-<vertex x="0" y="-2.54"/>
-<vertex x="7.62" y="-2.54"/>
-<vertex x="7.62" y="15.24"/>
-<vertex x="0" y="15.24"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM2596-BOARD">
-<gates>
-<gate name="G$1" symbol="LM2596-BOARD" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="LM2596-BOARD">
-<connects>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
-<connect gate="G$1" pin="VOUT" pad="VOUT"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -3700,6 +3651,96 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="_custom">
+<packages>
+<package name="LM2596-BOARD">
+<pad name="VOUT" x="1.405" y="41.6" drill="0.8" diameter="3" shape="square"/>
+<pad name="GND@2" x="18.55" y="41.6" drill="0.8" diameter="3" shape="square" rot="R180"/>
+<pad name="GND@1" x="18.55" y="1.54" drill="0.8" diameter="3" shape="square"/>
+<pad name="VIN" x="1.54" y="1.54" drill="0.8" diameter="3" shape="square"/>
+<text x="7.62" y="20.32" size="1.27" layer="21">LM2596</text>
+<wire x1="0" y1="0" x2="20" y2="0" width="0.127" layer="21"/>
+<wire x1="20" y1="0" x2="20" y2="43" width="0.127" layer="21"/>
+<wire x1="20" y1="43" x2="0" y2="43" width="0.127" layer="21"/>
+<wire x1="0" y1="43" x2="0" y2="0" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LM2596-BOARD">
+<pin name="GND@2" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="GND@1" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="VIN" x="-5.08" y="0" length="middle"/>
+<pin name="VOUT" x="-5.08" y="12.7" length="middle"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="-2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="7.62" y="15.24"/>
+<vertex x="0" y="15.24"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM2596-BOARD">
+<gates>
+<gate name="G$1" symbol="LM2596-BOARD" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="LM2596-BOARD">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A5L-LOC">
+<wire x1="85.09" y1="3.81" x2="85.09" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="85.09" y1="24.13" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="24.13" x2="180.34" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="3.81" x2="170.18" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="8.89" x2="180.34" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="8.89" x2="139.065" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="8.89" x2="139.065" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="8.89" x2="139.065" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="13.97" x2="180.34" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="13.97" x2="139.065" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="19.05" x2="180.34" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="19.05" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
+<text x="140.97" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="140.97" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="154.305" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="140.716" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="184.15" y2="133.35" columns="4" rows="4" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A5L-LOC" prefix="FRAME" uservalue="yes">
+<description>A5L LOC</description>
+<gates>
+<gate name="G$1" symbol="A5L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3713,7 +3754,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="BATT" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
 <part name="MBD" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0204/5" value="70k"/>
-<part name="U$3" library="_custom" deviceset="LM2596-BOARD" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SENSORS" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
@@ -3722,10 +3762,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/5" value="50k"/>
 <part name="LCDBL" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
+<part name="U$1" library="_custom" deviceset="LM2596-BOARD" device=""/>
+<part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="50.8" y="-35.56" size="2.54" layer="97">FlyballETS
+PowerBoard v1
+http://bit.ly/1ErZ5QD
+LICENSE: CC-BY-SA</text>
+<text x="103.124" y="-22.86" size="2.54" layer="97">Alex Goris</text>
+<text x="99.06" y="30.48" size="2.54" layer="97">Mainboard</text>
+<text x="99.06" y="40.894" size="2.54" layer="97">LCD Backlight</text>
+<text x="99.06" y="17.78" size="2.54" layer="97">Lights Board</text>
+<text x="99.06" y="5.08" size="2.54" layer="97">Sensors board</text>
+<text x="-27.94" y="5.08" size="2.54" layer="97">Battery input</text>
 </plain>
 <instances>
 <instance part="BATT" gate="-1" x="15.24" y="5.08" rot="R180"/>
@@ -3734,7 +3786,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="MBD" gate="-2" x="68.58" y="30.48"/>
 <instance part="MBD" gate="-3" x="68.58" y="27.94"/>
 <instance part="R1" gate="G$1" x="88.9" y="15.24" rot="R90"/>
-<instance part="U$3" gate="G$1" x="33.02" y="22.86"/>
 <instance part="P+1" gate="1" x="22.86" y="35.56" rot="R90"/>
 <instance part="GND3" gate="1" x="50.8" y="35.56" rot="R90"/>
 <instance part="SENSORS" gate="-1" x="68.58" y="7.62"/>
@@ -3747,15 +3798,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="R2" gate="G$1" x="88.9" y="30.48" rot="R90"/>
 <instance part="LCDBL" gate="-1" x="68.58" y="43.18"/>
 <instance part="LCDBL" gate="-2" x="68.58" y="40.64"/>
+<instance part="U$1" gate="G$1" x="33.02" y="22.86"/>
+<instance part="FRAME1" gate="G$1" x="-38.1" y="-43.18"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VOUT"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="27.94" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
@@ -3778,7 +3831,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="BATT" gate="-1" pin="1"/>
 <wire x1="20.32" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="5.08" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND@1"/>
 <wire x1="48.26" y1="7.62" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="20.32" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
@@ -3803,11 +3855,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="55.88" y="33.02"/>
 <pinref part="LCDBL" gate="-1" pin="1"/>
 <wire x1="55.88" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND@2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="45.72" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND@2"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -3815,7 +3868,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="BATT" gate="-2" pin="1"/>
 <wire x1="20.32" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="7.62" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VIN"/>
 <wire x1="25.4" y1="10.16" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <label x="27.94" y="7.62" size="1.778" layer="95"/>
@@ -3835,6 +3887,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="58.42" y="-2.54"/>
 <wire x1="88.9" y1="-2.54" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3854,4 +3907,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
