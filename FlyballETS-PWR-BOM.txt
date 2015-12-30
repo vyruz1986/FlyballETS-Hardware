@@ -1,0 +1,11 @@
+Partlist exported from C:/Users/Alex/Documents/eagle/FlyballETS-Hardware/FlyballETS-PWR.sch at 30/12/2015 17:42
+
+Part    Value           Device          Package      Description               
+BATT    02-JST-B2B-XH-A 02-JST-B2B-XH-A B2B-XH       JST CONNECTOR             
+LCDBL   02-JST-B2B-XH-A 02-JST-B2B-XH-A B2B-XH       JST CONNECTOR             
+LIGHTS  03-JST-B3B-XH-A 03-JST-B3B-XH-A B3B-XH       JST CONNECTOR             
+MBD     03-JST-B3B-XH-A 03-JST-B3B-XH-A B3B-XH       JST CONNECTOR             
+R1      70k             R-EU_0204/5     0204/5       RESISTOR, European symbol 
+R2      50k             R-EU_0204/5     0204/5       RESISTOR, European symbol 
+SENSORS 02-JST-B2B-XH-A 02-JST-B2B-XH-A B2B-XH       JST CONNECTOR             
+U$1     LM2596-BOARD    LM2596-BOARD    LM2596-BOARD                           

@@ -1,0 +1,23 @@
+Partlist exported from C:/Users/Alex/Documents/eagle/FlyballETS-Hardware/FlyballETS-LIGHTS.sch at 30/12/2015 17:37
+
+Part   Value           Device          Package      Description                          
+BTN    02-JST-B2B-XH-A 02-JST-B2B-XH-A B2B-XH       JST CONNECTOR                        
+C1     100uF           CPOL-EUE2.5-7   E2,5-7       POLARIZED CAPACITOR, European symbol 
+C2     0.01uF          C-EU025-050X050 C025-050X050 CAPACITOR, European symbol           
+IC1    74HC595N        74HC595N        DIL16        8-bit SHIFT REGISTER, output latch   
+IC2    ULN2003AN       ULN2003AN       DIL16        DRIVER ARRAY                         
+IC3    LM555N          LM555N          DIL08        TIMER                                
+L1-1   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L1-2   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L1-3   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L1-4   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L1-5   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L2-1   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L2-2   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L2-3   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L2-4   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+L2-5   04-JST-B4B-XH-A 04-JST-B4B-XH-A B4B-XH       JST CONNECTOR                        
+LIGHTS 03-JST-B3B-XH-A 03-JST-B3B-XH-A B3B-XH       JST CONNECTOR                        
+LSR    02-JST-B2B-XH-A 02-JST-B2B-XH-A B2B-XH       JST CONNECTOR                        
+PWR    03-JST-B3B-XH-A 03-JST-B3B-XH-A B3B-XH       JST CONNECTOR                        
+R1     1M              TRIM_EU-B25P    B25P         POTENTIOMETER                        

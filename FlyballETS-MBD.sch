@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11107,7 +11107,7 @@ at 27/07/2012 13:33:57</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="resistor" deviceset="CPOL-EU" device="E2,5-6E" value="100nF"/>
-<part name="U$2" library="_custom" deviceset="ARDPROMINISOCK" device=""/>
+<part name="ARDUINO" library="_custom" deviceset="ARDPROMINISOCK" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="LCD" library="3M_By_element14_Batch_1" deviceset="2518-6002UB" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
@@ -11166,7 +11166,7 @@ LICENSE: CC-BY-SA</text>
 <instance part="P+2" gate="1" x="134.62" y="127"/>
 <instance part="GND7" gate="1" x="149.86" y="127" rot="R180"/>
 <instance part="C2" gate="G$1" x="139.7" y="124.46" rot="R90"/>
-<instance part="U$2" gate="G$1" x="114.3" y="106.68" rot="R180"/>
+<instance part="ARDUINO" gate="G$1" x="114.3" y="106.68" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="-38.1" y="10.16"/>
 <instance part="LCD" gate="G$1" x="5.08" y="96.52" smashed="yes">
 <attribute name="NAME" x="2.2606" y="105.6386" size="2.0828" layer="95" ratio="10" rot="SR0"/>
@@ -11221,7 +11221,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="68.58" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="60.96" y1="96.52" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND@3"/>
+<pinref part="ARDUINO" gate="G$1" pin="GND@3"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="101.6" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
@@ -11249,7 +11249,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="137.16" y1="93.98" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="99.06" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="127" y="93.98" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="A3"/>
+<pinref part="ARDUINO" gate="G$1" pin="A3"/>
 <pinref part="REMOTE" gate="-3" pin="1"/>
 </segment>
 </net>
@@ -11284,7 +11284,7 @@ LICENSE: CC-BY-SA</text>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="119.38" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VCC@1"/>
+<pinref part="ARDUINO" gate="G$1" pin="VCC@1"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="104.14" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
@@ -11314,7 +11314,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="139.7" y1="91.44" x2="139.7" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="96.52" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
 <label x="127" y="91.44" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="A2"/>
+<pinref part="ARDUINO" gate="G$1" pin="A2"/>
 <pinref part="REMOTE" gate="-4" pin="1"/>
 </segment>
 </net>
@@ -11324,7 +11324,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="142.24" y1="88.9" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="127" y="88.9" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="A1"/>
+<pinref part="ARDUINO" gate="G$1" pin="A1"/>
 <pinref part="REMOTE" gate="-5" pin="1"/>
 </segment>
 </net>
@@ -11333,7 +11333,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="160.02" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="91.44" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="A4"/>
+<pinref part="ARDUINO" gate="G$1" pin="A4"/>
 <wire x1="96.52" y1="63.5" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <label x="96.52" y="63.5" size="1.778" layer="95" rot="R90"/>
 <pinref part="REMOTE" gate="-6" pin="1"/>
@@ -11344,7 +11344,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="160.02" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="88.9" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="A5"/>
+<pinref part="ARDUINO" gate="G$1" pin="A5"/>
 <wire x1="99.06" y1="66.04" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
 <label x="99.06" y="63.5" size="1.778" layer="95" rot="R90"/>
 <pinref part="REMOTE" gate="-7" pin="1"/>
@@ -11354,7 +11354,7 @@ LICENSE: CC-BY-SA</text>
 <segment>
 <label x="127" y="86.36" size="1.778" layer="95"/>
 <wire x1="119.38" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="A0"/>
+<pinref part="ARDUINO" gate="G$1" pin="A0"/>
 <pinref part="REMOTE" gate="-8" pin="1"/>
 </segment>
 </net>
@@ -11366,7 +11366,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="134.62" y1="58.42" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <label x="127" y="78.74" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="11"/>
+<pinref part="ARDUINO" gate="G$1" pin="11"/>
 <pinref part="LCD" gate="G$1" pin="9"/>
 </segment>
 </net>
@@ -11377,7 +11377,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="-20.32" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="55.88" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="127" y="81.28" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="12"/>
+<pinref part="ARDUINO" gate="G$1" pin="12"/>
 <wire x1="137.16" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="11"/>
 </segment>
@@ -11390,7 +11390,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="132.08" y1="60.96" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
 <label x="127" y="76.2" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="10"/>
+<pinref part="ARDUINO" gate="G$1" pin="10"/>
 <pinref part="LCD" gate="G$1" pin="15"/>
 </segment>
 </net>
@@ -11400,7 +11400,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 <label x="55.88" y="76.2" size="1.778" layer="95"/>
 <wire x1="22.86" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="9"/>
+<pinref part="ARDUINO" gate="G$1" pin="9"/>
 <label x="12.7" y="71.12" size="1.778" layer="95"/>
 <pinref part="LIGHTS" gate="-1" pin="1"/>
 </segment>
@@ -11411,7 +11411,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="20.32" y1="68.58" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 <label x="55.88" y="78.74" size="1.778" layer="95"/>
 <wire x1="20.32" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="8"/>
+<pinref part="ARDUINO" gate="G$1" pin="8"/>
 <label x="12.7" y="68.58" size="1.778" layer="95"/>
 <pinref part="LIGHTS" gate="-2" pin="1"/>
 </segment>
@@ -11423,7 +11423,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="20.32" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="53.34" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <label x="127" y="83.82" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="13"/>
+<pinref part="ARDUINO" gate="G$1" pin="13"/>
 <wire x1="139.7" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
 <label x="12.7" y="66.04" size="1.778" layer="95"/>
 <pinref part="LIGHTS" gate="-3" pin="1"/>
@@ -11461,7 +11461,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="55.88" y1="121.92" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
 <label x="55.88" y="91.44" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
+<pinref part="ARDUINO" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="S1" class="0">
@@ -11476,7 +11476,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="58.42" y1="116.84" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="55.88" y="93.98" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="ARDUINO" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DB7" class="0">
@@ -11484,7 +11484,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="68.58" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="88.9" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
 <label x="55.88" y="88.9" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
+<pinref part="ARDUINO" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="111.76" x2="-15.24" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="111.76" x2="-15.24" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="1"/>
@@ -11496,7 +11496,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="-17.78" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="114.3" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 <label x="55.88" y="83.82" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="6"/>
+<pinref part="ARDUINO" gate="G$1" pin="6"/>
 <wire x1="48.26" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="114.3" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="3"/>
@@ -11509,7 +11509,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="50.8" y1="86.36" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
 <label x="55.88" y="86.36" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
+<pinref part="ARDUINO" gate="G$1" pin="5"/>
 <pinref part="LCD" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -11519,7 +11519,7 @@ LICENSE: CC-BY-SA</text>
 <wire x1="45.72" y1="81.28" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
 <label x="55.88" y="81.28" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="7"/>
+<pinref part="ARDUINO" gate="G$1" pin="7"/>
 <pinref part="LCD" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -11535,7 +11535,7 @@ LICENSE: CC-BY-SA</text>
 <net name="VSENS" class="0">
 <segment>
 <label x="147.32" y="119.38" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="A6"/>
+<pinref part="ARDUINO" gate="G$1" pin="A6"/>
 <wire x1="160.02" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="119.38" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="PWR" gate="-3" pin="1"/>
