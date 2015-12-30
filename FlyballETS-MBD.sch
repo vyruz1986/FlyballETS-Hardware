@@ -11106,7 +11106,7 @@ at 27/07/2012 13:33:57</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="resistor" deviceset="CPOL-EU" device="E2,5-6E" value="100nF"/>
+<part name="C2" library="resistor" deviceset="CPOL-EU" device="E2,5-6E" value="100uF"/>
 <part name="ARDUINO" library="_custom" deviceset="ARDPROMINISOCK" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="LCD" library="3M_By_element14_Batch_1" deviceset="2518-6002UB" device=""/>

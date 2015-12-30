@@ -1720,7 +1720,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R7" library="resistor" package="RTRIM3339P" value="10k" x="17.78" y="39.37"/>
 <element name="Q2" library="transistor-pnp" package="TO92" value="BC557" x="7.62" y="52.07" rot="R270"/>
-<element name="C2" library="resistor" package="E2,5-6E" value="100nF" x="20.32" y="26.67" rot="R90"/>
+<element name="C2" library="resistor" package="E2,5-6E" value="100uF" x="20.32" y="26.67" rot="R90"/>
 <element name="ARDUINO" library="_custom" package="ARDPROMINISOCK" value="ARDPROMINISOCK" x="44.45" y="49.53" smashed="yes" rot="R180"/>
 <element name="U$1" library="frames" package="A5L-LOC" value="" x="-66.04" y="-38.1"/>
 <element name="LCD" library="3M_By_element14_Batch_1" package="3M_2518-6002UB" value="2518-6002UB" x="20.32" y="12.7" smashed="yes" rot="R180">
