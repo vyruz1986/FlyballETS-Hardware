@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3753,14 +3753,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <parts>
 <part name="BATT" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
 <part name="MBD" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/5" value="70k"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10" value="70k"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SENSORS" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
 <part name="LIGHTS" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0204/5" value="50k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="50k"/>
 <part name="LCDBL" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
 <part name="U$1" library="_custom" deviceset="LM2596-BOARD" device=""/>
 <part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>
@@ -3769,7 +3769,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <sheet>
 <plain>
 <text x="50.8" y="-35.56" size="2.54" layer="97">FlyballETS
-PowerBoard v1
+PowerBoard v2
 http://bit.ly/1ErZ5QD
 LICENSE: CC-BY-SA</text>
 <text x="103.124" y="-22.86" size="2.54" layer="97">Alex Goris</text>
