@@ -11962,6 +11962,8 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
+<part name="C3" library="resistor" deviceset="C-EU" device="050-030X075" value="100nF"/>
+<part name="P+5" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12056,6 +12058,8 @@ LICENSE: CC-BY-SA</text>
 <instance part="P+7" gate="1" x="129.54" y="40.64" smashed="yes" rot="R90">
 <attribute name="VALUE" x="129.54" y="38.1" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C3" gate="G$1" x="80.264" y="18.796" rot="R90"/>
+<instance part="P+5" gate="1" x="60.96" y="58.42" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12070,6 +12074,10 @@ LICENSE: CC-BY-SA</text>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="IC1" gate="P" pin="GND"/>
 <wire x1="71.12" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="33.02" x2="73.66" y2="18.796" width="0.1524" layer="91"/>
+<junction x="73.66" y="33.02"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="18.796" x2="77.724" y2="18.796" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -12122,6 +12130,10 @@ LICENSE: CC-BY-SA</text>
 <pinref part="IC1" gate="P" pin="VCC"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="91.44" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="33.02" x2="88.9" y2="18.796" width="0.1524" layer="91"/>
+<junction x="88.9" y="33.02"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="18.796" x2="85.344" y2="18.796" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="V+"/>
@@ -12132,6 +12144,11 @@ LICENSE: CC-BY-SA</text>
 <pinref part="R1" gate="1" pin="E"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="50.8" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<pinref part="IC1" gate="A" pin="SCL"/>
+<wire x1="63.5" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
