@@ -3753,14 +3753,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <parts>
 <part name="BATT" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
 <part name="MBD" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10" value="70k"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10" value="5.6k"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SENSORS" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
 <part name="LIGHTS" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="50k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="3.9k"/>
 <part name="LCDBL" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
 <part name="U$1" library="_custom" deviceset="LM2596-BOARD" device=""/>
 <part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>

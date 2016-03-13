@@ -1469,8 +1469,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="MBD" library="bt_con-jst-xh" package="B3B-XH" value="03-JST-B3B-XH-A" x="6.985" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.795" y="38.1" size="1.27" layer="21" rot="R270"/>
 </element>
-<element name="R1" library="resistor" package="0207/10" value="70k" x="3.175" y="24.765" rot="R90"/>
-<element name="R2" library="resistor" package="0207/10" value="50k" x="3.175" y="38.1" rot="R90"/>
+<element name="R1" library="resistor" package="0207/10" value="5.6k" x="3.175" y="24.765" rot="R90"/>
+<element name="R2" library="resistor" package="0207/10" value="3.9k" x="3.175" y="38.1" rot="R90"/>
 <element name="SENSORS" library="bt_con-jst-xh" package="B2B-XH" value="02-JST-B2B-XH-A" x="6.985" y="24.13" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.795" y="27.94" size="1.27" layer="21" rot="R270"/>
 </element>
