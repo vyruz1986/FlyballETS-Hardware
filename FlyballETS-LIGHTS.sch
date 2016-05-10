@@ -11939,16 +11939,16 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="L2-5" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L2-4" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L2-3" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L2-2" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L2-1" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L1-1" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L1-2" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L1-3" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L1-4" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="L1-5" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L2-5-RD" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L2-4-YE2" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L2-3-YE1/BU" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L2-2-RD" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L2-1-WH" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L1-1-WH" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L1-2-RD" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L1-3-YE1/BU" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L1-4-YE2" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
+<part name="L1-5-GN" library="bt_con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -12000,46 +12000,46 @@ LICENSE: CC-BY-SA</text>
 <instance part="GND2" gate="1" x="68.58" y="33.02" rot="R270"/>
 <instance part="GND3" gate="1" x="63.5" y="43.18" rot="R270"/>
 <instance part="GND4" gate="1" x="99.06" y="45.72" rot="R270"/>
-<instance part="L2-5" gate="-1" x="182.88" y="33.02" rot="R270"/>
-<instance part="L2-5" gate="-2" x="180.34" y="33.02" rot="R270"/>
-<instance part="L2-5" gate="-3" x="177.8" y="33.02" rot="R270"/>
-<instance part="L2-5" gate="-4" x="175.26" y="33.02" rot="R270"/>
-<instance part="L2-4" gate="-1" x="200.66" y="76.2" rot="R90"/>
-<instance part="L2-4" gate="-2" x="203.2" y="76.2" rot="R90"/>
-<instance part="L2-4" gate="-3" x="205.74" y="76.2" rot="R90"/>
-<instance part="L2-4" gate="-4" x="208.28" y="76.2" rot="R90"/>
-<instance part="L2-3" gate="-1" x="157.48" y="33.02" rot="R270"/>
-<instance part="L2-3" gate="-2" x="154.94" y="33.02" rot="R270"/>
-<instance part="L2-3" gate="-3" x="152.4" y="33.02" rot="R270"/>
-<instance part="L2-3" gate="-4" x="149.86" y="33.02" rot="R270"/>
-<instance part="L2-2" gate="-1" x="175.26" y="76.2" rot="R90"/>
-<instance part="L2-2" gate="-2" x="177.8" y="76.2" rot="R90"/>
-<instance part="L2-2" gate="-3" x="180.34" y="76.2" rot="R90"/>
-<instance part="L2-2" gate="-4" x="182.88" y="76.2" rot="R90"/>
-<instance part="L2-1" gate="-1" x="149.86" y="76.2" rot="R90"/>
-<instance part="L2-1" gate="-2" x="152.4" y="76.2" rot="R90"/>
-<instance part="L2-1" gate="-3" x="154.94" y="76.2" rot="R90"/>
-<instance part="L2-1" gate="-4" x="157.48" y="76.2" rot="R90"/>
-<instance part="L1-1" gate="-1" x="137.16" y="76.2" rot="R90"/>
-<instance part="L1-1" gate="-2" x="139.7" y="76.2" rot="R90"/>
-<instance part="L1-1" gate="-3" x="142.24" y="76.2" rot="R90"/>
-<instance part="L1-1" gate="-4" x="144.78" y="76.2" rot="R90"/>
-<instance part="L1-2" gate="-1" x="162.56" y="76.2" rot="R90"/>
-<instance part="L1-2" gate="-2" x="165.1" y="76.2" rot="R90"/>
-<instance part="L1-2" gate="-3" x="167.64" y="76.2" rot="R90"/>
-<instance part="L1-2" gate="-4" x="170.18" y="76.2" rot="R90"/>
-<instance part="L1-3" gate="-1" x="144.78" y="33.02" rot="R270"/>
-<instance part="L1-3" gate="-2" x="142.24" y="33.02" rot="R270"/>
-<instance part="L1-3" gate="-3" x="139.7" y="33.02" rot="R270"/>
-<instance part="L1-3" gate="-4" x="137.16" y="33.02" rot="R270"/>
-<instance part="L1-4" gate="-1" x="187.96" y="76.2" rot="R90"/>
-<instance part="L1-4" gate="-2" x="190.5" y="76.2" rot="R90"/>
-<instance part="L1-4" gate="-3" x="193.04" y="76.2" rot="R90"/>
-<instance part="L1-4" gate="-4" x="195.58" y="76.2" rot="R90"/>
-<instance part="L1-5" gate="-1" x="170.18" y="33.02" rot="R270"/>
-<instance part="L1-5" gate="-2" x="167.64" y="33.02" rot="R270"/>
-<instance part="L1-5" gate="-3" x="165.1" y="33.02" rot="R270"/>
-<instance part="L1-5" gate="-4" x="162.56" y="33.02" rot="R270"/>
+<instance part="L2-5-RD" gate="-1" x="182.88" y="33.02" rot="R270"/>
+<instance part="L2-5-RD" gate="-2" x="180.34" y="33.02" rot="R270"/>
+<instance part="L2-5-RD" gate="-3" x="177.8" y="33.02" rot="R270"/>
+<instance part="L2-5-RD" gate="-4" x="175.26" y="33.02" rot="R270"/>
+<instance part="L2-4-YE2" gate="-1" x="200.66" y="76.2" rot="R90"/>
+<instance part="L2-4-YE2" gate="-2" x="203.2" y="76.2" rot="R90"/>
+<instance part="L2-4-YE2" gate="-3" x="205.74" y="76.2" rot="R90"/>
+<instance part="L2-4-YE2" gate="-4" x="208.28" y="76.2" rot="R90"/>
+<instance part="L2-3-YE1/BU" gate="-1" x="157.48" y="33.02" rot="R270"/>
+<instance part="L2-3-YE1/BU" gate="-2" x="154.94" y="33.02" rot="R270"/>
+<instance part="L2-3-YE1/BU" gate="-3" x="152.4" y="33.02" rot="R270"/>
+<instance part="L2-3-YE1/BU" gate="-4" x="149.86" y="33.02" rot="R270"/>
+<instance part="L2-2-RD" gate="-1" x="175.26" y="76.2" rot="R90"/>
+<instance part="L2-2-RD" gate="-2" x="177.8" y="76.2" rot="R90"/>
+<instance part="L2-2-RD" gate="-3" x="180.34" y="76.2" rot="R90"/>
+<instance part="L2-2-RD" gate="-4" x="182.88" y="76.2" rot="R90"/>
+<instance part="L2-1-WH" gate="-1" x="149.86" y="76.2" rot="R90"/>
+<instance part="L2-1-WH" gate="-2" x="152.4" y="76.2" rot="R90"/>
+<instance part="L2-1-WH" gate="-3" x="154.94" y="76.2" rot="R90"/>
+<instance part="L2-1-WH" gate="-4" x="157.48" y="76.2" rot="R90"/>
+<instance part="L1-1-WH" gate="-1" x="137.16" y="76.2" rot="R90"/>
+<instance part="L1-1-WH" gate="-2" x="139.7" y="76.2" rot="R90"/>
+<instance part="L1-1-WH" gate="-3" x="142.24" y="76.2" rot="R90"/>
+<instance part="L1-1-WH" gate="-4" x="144.78" y="76.2" rot="R90"/>
+<instance part="L1-2-RD" gate="-1" x="162.56" y="76.2" rot="R90"/>
+<instance part="L1-2-RD" gate="-2" x="165.1" y="76.2" rot="R90"/>
+<instance part="L1-2-RD" gate="-3" x="167.64" y="76.2" rot="R90"/>
+<instance part="L1-2-RD" gate="-4" x="170.18" y="76.2" rot="R90"/>
+<instance part="L1-3-YE1/BU" gate="-1" x="144.78" y="33.02" rot="R270"/>
+<instance part="L1-3-YE1/BU" gate="-2" x="142.24" y="33.02" rot="R270"/>
+<instance part="L1-3-YE1/BU" gate="-3" x="139.7" y="33.02" rot="R270"/>
+<instance part="L1-3-YE1/BU" gate="-4" x="137.16" y="33.02" rot="R270"/>
+<instance part="L1-4-YE2" gate="-1" x="187.96" y="76.2" rot="R90"/>
+<instance part="L1-4-YE2" gate="-2" x="190.5" y="76.2" rot="R90"/>
+<instance part="L1-4-YE2" gate="-3" x="193.04" y="76.2" rot="R90"/>
+<instance part="L1-4-YE2" gate="-4" x="195.58" y="76.2" rot="R90"/>
+<instance part="L1-5-GN" gate="-1" x="170.18" y="33.02" rot="R270"/>
+<instance part="L1-5-GN" gate="-2" x="167.64" y="33.02" rot="R270"/>
+<instance part="L1-5-GN" gate="-3" x="165.1" y="33.02" rot="R270"/>
+<instance part="L1-5-GN" gate="-4" x="162.56" y="33.02" rot="R270"/>
 <instance part="P+4" gate="1" x="129.54" y="68.58" smashed="yes" rot="R90">
 <attribute name="VALUE" x="127" y="71.12" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -12160,44 +12160,44 @@ LICENSE: CC-BY-SA</text>
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="132.08" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="L2-1" gate="-1" pin="1"/>
+<pinref part="L2-1-WH" gate="-1" pin="1"/>
 <wire x1="137.16" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="68.58" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="L1-1" gate="-1" pin="1"/>
+<pinref part="L1-1-WH" gate="-1" pin="1"/>
 <wire x1="137.16" y1="68.58" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <junction x="137.16" y="68.58"/>
 <junction x="149.86" y="68.58"/>
 <wire x1="149.86" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="L2-2" gate="-1" pin="1"/>
+<pinref part="L2-2-RD" gate="-1" pin="1"/>
 <wire x1="162.56" y1="68.58" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="68.58" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="L1-2" gate="-1" pin="1"/>
+<pinref part="L1-2-RD" gate="-1" pin="1"/>
 <wire x1="162.56" y1="68.58" x2="162.56" y2="71.12" width="0.1524" layer="91"/>
 <junction x="162.56" y="68.58"/>
-<pinref part="L1-4" gate="-1" pin="1"/>
+<pinref part="L1-4-YE2" gate="-1" pin="1"/>
 <wire x1="175.26" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="68.58" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
 <junction x="175.26" y="68.58"/>
-<pinref part="L2-4" gate="-1" pin="1"/>
+<pinref part="L2-4-YE2" gate="-1" pin="1"/>
 <wire x1="187.96" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="68.58" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
 <junction x="187.96" y="68.58"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+12V"/>
-<pinref part="L1-3" gate="-1" pin="1"/>
+<pinref part="L1-3-YE1/BU" gate="-1" pin="1"/>
 <wire x1="132.08" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="40.64" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="L2-3" gate="-1" pin="1"/>
+<pinref part="L2-3-YE1/BU" gate="-1" pin="1"/>
 <wire x1="144.78" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="40.64" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
 <junction x="144.78" y="40.64"/>
 <junction x="157.48" y="40.64"/>
 <wire x1="157.48" y1="40.64" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="L1-5" gate="-1" pin="1"/>
+<pinref part="L1-5-GN" gate="-1" pin="1"/>
 <wire x1="170.18" y1="40.64" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
 <junction x="170.18" y="40.64"/>
-<pinref part="L2-5" gate="-1" pin="1"/>
+<pinref part="L2-5-RD" gate="-1" pin="1"/>
 <wire x1="170.18" y1="40.64" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="40.64" x2="182.88" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -12280,43 +12280,43 @@ LICENSE: CC-BY-SA</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="L1-2" gate="-2" pin="1"/>
+<pinref part="L1-2-RD" gate="-2" pin="1"/>
 <wire x1="165.1" y1="71.12" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="O2"/>
 <wire x1="129.54" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <junction x="165.1" y="60.96"/>
-<pinref part="L2-2" gate="-2" pin="1"/>
+<pinref part="L2-2-RD" gate="-2" pin="1"/>
 <wire x1="177.8" y1="60.96" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="L1-3" gate="-2" pin="1"/>
+<pinref part="L1-3-YE1/BU" gate="-2" pin="1"/>
 <wire x1="142.24" y1="38.1" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="O3"/>
 <wire x1="129.54" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="L1-3" gate="-3" pin="1"/>
+<pinref part="L1-3-YE1/BU" gate="-3" pin="1"/>
 <wire x1="139.7" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="38.1" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
 <junction x="139.7" y="58.42"/>
-<pinref part="L2-3" gate="-2" pin="1"/>
+<pinref part="L2-3-YE1/BU" gate="-2" pin="1"/>
 <wire x1="142.24" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="58.42" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
 <junction x="142.24" y="58.42"/>
-<pinref part="L2-3" gate="-3" pin="1"/>
+<pinref part="L2-3-YE1/BU" gate="-3" pin="1"/>
 <wire x1="152.4" y1="38.1" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <junction x="152.4" y="58.42"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="L1-3" gate="-4" pin="1"/>
+<pinref part="L1-3-YE1/BU" gate="-4" pin="1"/>
 <wire x1="137.16" y1="38.1" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="O4"/>
 <wire x1="129.54" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="L2-3" gate="-4" pin="1"/>
+<pinref part="L2-3-YE1/BU" gate="-4" pin="1"/>
 <wire x1="149.86" y1="38.1" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
 <junction x="137.16" y="55.88"/>
@@ -12324,19 +12324,19 @@ LICENSE: CC-BY-SA</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="L1-4" gate="-2" pin="1"/>
+<pinref part="L1-4-YE2" gate="-2" pin="1"/>
 <wire x1="190.5" y1="71.12" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="O5"/>
 <wire x1="129.54" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
 <junction x="190.5" y="53.34"/>
-<pinref part="L1-4" gate="-3" pin="1"/>
+<pinref part="L1-4-YE2" gate="-3" pin="1"/>
 <wire x1="193.04" y1="53.34" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="L2-4" gate="-2" pin="1"/>
+<pinref part="L2-4-YE2" gate="-2" pin="1"/>
 <wire x1="193.04" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="53.34" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
 <junction x="193.04" y="53.34"/>
-<pinref part="L2-4" gate="-3" pin="1"/>
+<pinref part="L2-4-YE2" gate="-3" pin="1"/>
 <wire x1="203.2" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="53.34" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <junction x="203.2" y="53.34"/>
@@ -12346,10 +12346,10 @@ LICENSE: CC-BY-SA</text>
 <segment>
 <pinref part="IC2" gate="A" pin="O6"/>
 <wire x1="129.54" y1="50.8" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="L2-5" gate="-2" pin="1"/>
+<pinref part="L2-5-RD" gate="-2" pin="1"/>
 <wire x1="167.64" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="50.8" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="L1-5" gate="-2" pin="1"/>
+<pinref part="L1-5-GN" gate="-2" pin="1"/>
 <wire x1="167.64" y1="38.1" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
 <junction x="167.64" y="50.8"/>
 </segment>
@@ -12400,25 +12400,25 @@ LICENSE: CC-BY-SA</text>
 <segment>
 <pinref part="IC2" gate="A" pin="O1"/>
 <wire x1="129.54" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="L2-1" gate="-3" pin="1"/>
+<pinref part="L2-1-WH" gate="-3" pin="1"/>
 <wire x1="139.7" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="63.5" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="L2-1" gate="-2" pin="1"/>
+<pinref part="L2-1-WH" gate="-2" pin="1"/>
 <wire x1="152.4" y1="63.5" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
 <junction x="152.4" y="63.5"/>
-<pinref part="L1-1" gate="-4" pin="1"/>
+<pinref part="L1-1-WH" gate="-4" pin="1"/>
 <wire x1="144.78" y1="63.5" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
 <junction x="144.78" y="63.5"/>
-<pinref part="L1-1" gate="-3" pin="1"/>
+<pinref part="L1-1-WH" gate="-3" pin="1"/>
 <wire x1="142.24" y1="63.5" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
 <junction x="142.24" y="63.5"/>
-<pinref part="L1-1" gate="-2" pin="1"/>
+<pinref part="L1-1-WH" gate="-2" pin="1"/>
 <wire x1="139.7" y1="63.5" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
 <junction x="139.7" y="63.5"/>
-<pinref part="L2-1" gate="-4" pin="1"/>
+<pinref part="L2-1-WH" gate="-4" pin="1"/>
 <wire x1="154.94" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="63.5" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 <junction x="154.94" y="63.5"/>

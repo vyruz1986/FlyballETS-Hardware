@@ -3793,7 +3793,7 @@ LICENSE: CC-BY-SA</text>
 <instance part="LIGHTS" gate="-1" x="68.58" y="20.32"/>
 <instance part="LIGHTS" gate="-2" x="68.58" y="17.78"/>
 <instance part="LIGHTS" gate="-3" x="68.58" y="15.24"/>
-<instance part="P+3" gate="1" x="50.8" y="15.24" rot="R90"/>
+<instance part="P+3" gate="1" x="50.8" y="17.78" rot="R90"/>
 <instance part="P+5" gate="1" x="50.8" y="30.48" rot="R90"/>
 <instance part="R2" gate="G$1" x="88.9" y="30.48" rot="R90"/>
 <instance part="LCDBL" gate="-1" x="68.58" y="43.18"/>
@@ -3811,11 +3811,6 @@ LICENSE: CC-BY-SA</text>
 <pinref part="U$1" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="LIGHTS" gate="-3" pin="1"/>
-<wire x1="53.34" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="MBD" gate="-2" pin="1"/>
 <wire x1="53.34" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
@@ -3824,6 +3819,11 @@ LICENSE: CC-BY-SA</text>
 <junction x="58.42" y="30.48"/>
 <pinref part="LCDBL" gate="-2" pin="1"/>
 <wire x1="58.42" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="LIGHTS" gate="-2" pin="1"/>
+<wire x1="53.34" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3877,17 +3877,16 @@ LICENSE: CC-BY-SA</text>
 <wire x1="-2.54" y1="-2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-2.54" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="SENSORS" gate="-2" pin="1"/>
-<wire x1="58.42" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="5.08" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
-<junction x="60.96" y="5.08"/>
-<pinref part="LIGHTS" gate="-2" pin="1"/>
-<wire x1="60.96" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-2.54" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="58.42" y="-2.54"/>
 <wire x1="88.9" y1="-2.54" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="LIGHTS" gate="-3" pin="1"/>
+<wire x1="63.5" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
+<junction x="58.42" y="5.08"/>
 </segment>
 </net>
 <net name="N$1" class="0">
