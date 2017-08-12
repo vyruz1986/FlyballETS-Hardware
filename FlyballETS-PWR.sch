@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -68,21 +68,21 @@
 &lt;p&gt;JST 2.54mm connector. Folded beam contact, box-shaped shrouded header, header with a boss, interchangeability, conformance to the HA terminal&lt;/p&gt;
 
 &lt;p&gt;Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; eXH.pdf&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-4.99" y1="3.4" x2="2.45" y2="3.4" width="0.127" layer="21"/>
-<wire x1="2.45" y1="3.4" x2="2.45" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="2.45" y1="-2.35" x2="-4.99" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="-4.99" y1="-2.35" x2="-4.99" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="2.7" x2="1.75" y2="2.7" width="0.127" layer="21"/>
-<wire x1="1.75" y1="2.7" x2="1.75" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.75" y1="1.27" x2="1.75" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="1.75" y1="-1.65" x2="-4.29" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="-1.65" x2="-4.29" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="1.27" x2="-4.29" y2="2.7" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="1.27" x2="1.75" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<wire x1="-2.45" y1="3.4" x2="4.99" y2="3.4" width="0.127" layer="21"/>
+<wire x1="4.99" y1="3.4" x2="4.99" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="4.99" y1="-2.35" x2="-2.45" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.7" x2="4.29" y2="2.7" width="0.127" layer="21"/>
+<wire x1="4.29" y1="2.7" x2="4.29" y2="1.27" width="0.127" layer="21"/>
+<wire x1="4.29" y1="1.27" x2="4.29" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="4.29" y1="-1.65" x2="-1.75" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.65" x2="-1.75" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.27" x2="-1.75" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.27" x2="4.29" y2="1.27" width="0.127" layer="21"/>
+<pad name="P$1" x="2.54" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="0" y="0" drill="0.8"/>
-<text x="-3.81" y="3.81" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-1.27" y="3.81" size="1.27" layer="21">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 <package name="B3B-XH">
 <description>&lt;b&gt;JST XH Connector&lt;/b&gt;
@@ -101,9 +101,9 @@
 <wire x1="-4.29" y1="-1.65" x2="-4.29" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-4.29" y1="1.27" x2="-4.29" y2="2.7" width="0.127" layer="21"/>
 <wire x1="-4.29" y1="1.27" x2="4.29" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<pad name="P$1" x="2.54" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="0" y="0" drill="0.8"/>
-<pad name="P$3" x="2.54" y="0" drill="0.8"/>
+<pad name="P$3" x="-2.54" y="0" drill="0.8"/>
 <text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
@@ -139,7 +139,7 @@
 <gate name="-2" symbol="P-N" x="5.08" y="0" addlevel="always"/>
 </gates>
 <devices>
-<device name="-B2B-XH-A" package="B2B-XH">
+<device name="" package="B2B-XH">
 <connects>
 <connect gate="-1" pin="1" pad="P$1"/>
 <connect gate="-2" pin="1" pad="P$2"/>
@@ -172,7 +172,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="resistor">
+<library name="resistor" urn="urn:adsk.eagle:library:348">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -3599,7 +3599,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -3700,7 +3700,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
@@ -3751,26 +3751,26 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="BATT" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
+<part name="BATT" library="bt_con-jst-xh" deviceset="02-JST" device=""/>
 <part name="MBD" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10" value="70k"/>
-<part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="SENSORS" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0207/10" value="5.6k"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SENSORS" library="bt_con-jst-xh" deviceset="02-JST" device=""/>
 <part name="LIGHTS" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="50k"/>
-<part name="LCDBL" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0207/10" value="3.9k"/>
+<part name="LCDBL" library="bt_con-jst-xh" deviceset="02-JST" device=""/>
 <part name="U$1" library="_custom" deviceset="LM2596-BOARD" device=""/>
-<part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="50.8" y="-35.56" size="2.54" layer="97">FlyballETS
-PowerBoard v2
-http://bit.ly/1ErZ5QD
+PowerBoard v3
+http://bit.ly/2hV18aC
 LICENSE: CC-BY-SA</text>
 <text x="103.124" y="-22.86" size="2.54" layer="97">Alex Goris</text>
 <text x="99.06" y="30.48" size="2.54" layer="97">Mainboard</text>
@@ -3793,7 +3793,7 @@ LICENSE: CC-BY-SA</text>
 <instance part="LIGHTS" gate="-1" x="68.58" y="20.32"/>
 <instance part="LIGHTS" gate="-2" x="68.58" y="17.78"/>
 <instance part="LIGHTS" gate="-3" x="68.58" y="15.24"/>
-<instance part="P+3" gate="1" x="50.8" y="15.24" rot="R90"/>
+<instance part="P+3" gate="1" x="50.8" y="17.78" rot="R90"/>
 <instance part="P+5" gate="1" x="50.8" y="30.48" rot="R90"/>
 <instance part="R2" gate="G$1" x="88.9" y="30.48" rot="R90"/>
 <instance part="LCDBL" gate="-1" x="68.58" y="43.18"/>
@@ -3811,11 +3811,6 @@ LICENSE: CC-BY-SA</text>
 <pinref part="U$1" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="LIGHTS" gate="-3" pin="1"/>
-<wire x1="53.34" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="MBD" gate="-2" pin="1"/>
 <wire x1="53.34" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
@@ -3824,6 +3819,11 @@ LICENSE: CC-BY-SA</text>
 <junction x="58.42" y="30.48"/>
 <pinref part="LCDBL" gate="-2" pin="1"/>
 <wire x1="58.42" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="LIGHTS" gate="-2" pin="1"/>
+<wire x1="53.34" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3877,17 +3877,16 @@ LICENSE: CC-BY-SA</text>
 <wire x1="-2.54" y1="-2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-2.54" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="SENSORS" gate="-2" pin="1"/>
-<wire x1="58.42" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="5.08" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
-<junction x="60.96" y="5.08"/>
-<pinref part="LIGHTS" gate="-2" pin="1"/>
-<wire x1="60.96" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-2.54" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="58.42" y="-2.54"/>
 <wire x1="88.9" y1="-2.54" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="LIGHTS" gate="-3" pin="1"/>
+<wire x1="63.5" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
+<junction x="58.42" y="5.08"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3911,6 +3910,11 @@ LICENSE: CC-BY-SA</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, Eagle supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
 </note>
 </compatibility>
 </eagle>

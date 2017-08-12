@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -79,9 +79,9 @@
 <wire x1="-4.29" y1="-1.65" x2="-4.29" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-4.29" y1="1.27" x2="-4.29" y2="2.7" width="0.127" layer="21"/>
 <wire x1="-4.29" y1="1.27" x2="4.29" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<pad name="P$1" x="2.54" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="0" y="0" drill="0.8"/>
-<pad name="P$3" x="2.54" y="0" drill="0.8"/>
+<pad name="P$3" x="-2.54" y="0" drill="0.8"/>
 <text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
@@ -91,21 +91,21 @@
 &lt;p&gt;JST 2.54mm connector. Folded beam contact, box-shaped shrouded header, header with a boss, interchangeability, conformance to the HA terminal&lt;/p&gt;
 
 &lt;p&gt;Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; eXH.pdf&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-4.99" y1="3.4" x2="2.45" y2="3.4" width="0.127" layer="21"/>
-<wire x1="2.45" y1="3.4" x2="2.45" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="2.45" y1="-2.35" x2="-4.99" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="-4.99" y1="-2.35" x2="-4.99" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="2.7" x2="1.75" y2="2.7" width="0.127" layer="21"/>
-<wire x1="1.75" y1="2.7" x2="1.75" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.75" y1="1.27" x2="1.75" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="1.75" y1="-1.65" x2="-4.29" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="-1.65" x2="-4.29" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="1.27" x2="-4.29" y2="2.7" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="1.27" x2="1.75" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<wire x1="-2.45" y1="3.4" x2="4.99" y2="3.4" width="0.127" layer="21"/>
+<wire x1="4.99" y1="3.4" x2="4.99" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="4.99" y1="-2.35" x2="-2.45" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.7" x2="4.29" y2="2.7" width="0.127" layer="21"/>
+<wire x1="4.29" y1="2.7" x2="4.29" y2="1.27" width="0.127" layer="21"/>
+<wire x1="4.29" y1="1.27" x2="4.29" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="4.29" y1="-1.65" x2="-1.75" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.65" x2="-1.75" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.27" x2="-1.75" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.27" x2="4.29" y2="1.27" width="0.127" layer="21"/>
+<pad name="P$1" x="2.54" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="0" y="0" drill="0.8"/>
-<text x="-3.81" y="3.81" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-1.27" y="3.81" size="1.27" layer="21">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -159,7 +159,7 @@
 <gate name="-2" symbol="P-N" x="5.08" y="0" addlevel="always"/>
 </gates>
 <devices>
-<device name="-B2B-XH-A" package="B2B-XH">
+<device name="" package="B2B-XH">
 <connects>
 <connect gate="-1" pin="1" pad="P$1"/>
 <connect gate="-2" pin="1" pad="P$2"/>
@@ -172,7 +172,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="diode">
+<library name="diode" urn="urn:adsk.eagle:library:210">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
 &lt;ul&gt;
@@ -285,7 +285,7 @@ high speed (Philips)</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -339,7 +339,7 @@ high speed (Philips)</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
@@ -396,90 +396,90 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="S1-10" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="PWR" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
-<part name="SENS" library="bt_con-jst-xh" deviceset="02-JST" device="-B2B-XH-A"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="PWR" library="bt_con-jst-xh" deviceset="02-JST" device=""/>
+<part name="SENS" library="bt_con-jst-xh" deviceset="02-JST" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1-9" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1-8" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="P+1" library="supply1" deviceset="+12V" device=""/>
-<part name="P+2" library="supply1" deviceset="+12V" device=""/>
-<part name="P+3" library="supply1" deviceset="+12V" device=""/>
-<part name="P+5" library="supply1" deviceset="+12V" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1-7" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="P+6" library="supply1" deviceset="+12V" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S1-6" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="P+7" library="supply1" deviceset="+12V" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S1-5" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1-4" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1-3" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" deviceset="+12V" device=""/>
-<part name="P+9" library="supply1" deviceset="+12V" device=""/>
-<part name="P+10" library="supply1" deviceset="+12V" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S1-2" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="P+11" library="supply1" deviceset="+12V" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S1-1" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="P+12" library="supply1" deviceset="+12V" device=""/>
-<part name="D2" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D3" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D4" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D5" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D6" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D7" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D8" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D9" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D10" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D11" library="diode" deviceset="1N4148" device="DO35-7"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
 <part name="S2-10" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S2-9" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S2-8" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="P+4" library="supply1" deviceset="+12V" device=""/>
-<part name="P+13" library="supply1" deviceset="+12V" device=""/>
-<part name="P+14" library="supply1" deviceset="+12V" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S2-7" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="P+16" library="supply1" deviceset="+12V" device=""/>
+<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S2-6" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="P+17" library="supply1" deviceset="+12V" device=""/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S2-5" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S2-4" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S2-3" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="P+18" library="supply1" deviceset="+12V" device=""/>
-<part name="P+19" library="supply1" deviceset="+12V" device=""/>
-<part name="P+20" library="supply1" deviceset="+12V" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S2-2" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="P+21" library="supply1" deviceset="+12V" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="S2-1" library="bt_con-jst-xh" deviceset="03-JST" device="-B3B-XH-A"/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="P+22" library="supply1" deviceset="+12V" device=""/>
-<part name="D12" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D13" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D14" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D15" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D16" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D17" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D18" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D19" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D20" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="D21" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="D12" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D15" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D16" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D17" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D18" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D19" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D20" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="D21" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7"/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -489,8 +489,8 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-10.16" y="58.42" size="1.778" layer="97" rot="R90">Handlers side sensors</text>
 <text x="132.08" y="58.42" size="1.778" layer="97" rot="R90">Box side sensors</text>
 <text x="139.7" y="-2.54" size="2.54" layer="97">FlyballETS
-SensorBoard v2
-http://bit.ly/1ErZ5QD
+SensorBoard v3
+http://bit.ly/2hV18aC
 LICENSE: CC-BY-SA</text>
 <text x="194.564" y="10.16" size="2.54" layer="97">Alex Goris</text>
 </plain>
@@ -1059,6 +1059,11 @@ LICENSE: CC-BY-SA</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, Eagle supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
 </note>
 </compatibility>
 </eagle>

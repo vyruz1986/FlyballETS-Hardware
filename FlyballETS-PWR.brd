@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -67,13 +67,13 @@
 <hole x="36.83" y="48.26" drill="3.2"/>
 <hole x="36.83" y="2.54" drill="3.2"/>
 <text x="19.05" y="15.24" size="1.778" layer="22" rot="MR90">FlyballETS
-PowerBoard v2
-http://bit.ly/1ErZ5QD
+PowerBoard v3
+http://bit.ly/2hV18aC
 LICENSE: CC-BY-SA</text>
 <text x="77.47" y="-27.94" size="2.54" layer="48">Alex Goris</text>
 <text x="25.4" y="-40.64" size="2.54" layer="48">FlyballETS
-PowerBoard v2
-http://bit.ly/1ErZ5QD
+PowerBoard v3
+http://bit.ly/2hV18aC
 LICENSE: CC-BY-SA</text>
 <dimension x1="39.37" y1="0" x2="39.37" y2="50.8" x3="44.449996875" y3="25.4" textsize="1.778" layer="48"/>
 <dimension x1="39.37" y1="50.8" x2="0" y2="50.8" x3="19.685" y3="60.96" textsize="1.778" layer="48"/>
@@ -93,21 +93,21 @@ LICENSE: CC-BY-SA</text>
 &lt;p&gt;JST 2.54mm connector. Folded beam contact, box-shaped shrouded header, header with a boss, interchangeability, conformance to the HA terminal&lt;/p&gt;
 
 &lt;p&gt;Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; eXH.pdf&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-4.99" y1="3.4" x2="2.45" y2="3.4" width="0.127" layer="21"/>
-<wire x1="2.45" y1="3.4" x2="2.45" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="2.45" y1="-2.35" x2="-4.99" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="-4.99" y1="-2.35" x2="-4.99" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="2.7" x2="1.75" y2="2.7" width="0.127" layer="21"/>
-<wire x1="1.75" y1="2.7" x2="1.75" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.75" y1="1.27" x2="1.75" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="1.75" y1="-1.65" x2="-4.29" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="-1.65" x2="-4.29" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="1.27" x2="-4.29" y2="2.7" width="0.127" layer="21"/>
-<wire x1="-4.29" y1="1.27" x2="1.75" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<wire x1="-2.45" y1="3.4" x2="4.99" y2="3.4" width="0.127" layer="21"/>
+<wire x1="4.99" y1="3.4" x2="4.99" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="4.99" y1="-2.35" x2="-2.45" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.7" x2="4.29" y2="2.7" width="0.127" layer="21"/>
+<wire x1="4.29" y1="2.7" x2="4.29" y2="1.27" width="0.127" layer="21"/>
+<wire x1="4.29" y1="1.27" x2="4.29" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="4.29" y1="-1.65" x2="-1.75" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.65" x2="-1.75" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.27" x2="-1.75" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.27" x2="4.29" y2="1.27" width="0.127" layer="21"/>
+<pad name="P$1" x="2.54" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="0" y="0" drill="0.8"/>
-<text x="-3.81" y="3.81" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-1.27" y="3.81" size="1.27" layer="21">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 <package name="B3B-XH">
 <description>&lt;b&gt;JST XH Connector&lt;/b&gt;
@@ -126,15 +126,15 @@ LICENSE: CC-BY-SA</text>
 <wire x1="-4.29" y1="-1.65" x2="-4.29" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-4.29" y1="1.27" x2="-4.29" y2="2.7" width="0.127" layer="21"/>
 <wire x1="-4.29" y1="1.27" x2="4.29" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<pad name="P$1" x="2.54" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="0" y="0" drill="0.8"/>
-<pad name="P$3" x="2.54" y="0" drill="0.8"/>
+<pad name="P$3" x="-2.54" y="0" drill="0.8"/>
 <text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 </library>
-<library name="resistor">
+<library name="resistor" urn="urn:adsk.eagle:library:348">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -1249,7 +1249,7 @@ type 0207, grid 10 mm</description>
 </package>
 </packages>
 </library>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 <package name="A5L-LOC">
@@ -1281,7 +1281,7 @@ type 0207, grid 10 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="oshpark-2layer">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1341,8 +1341,8 @@ Please make sure your boards conform to these design rules.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="3mil"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -1457,29 +1457,28 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BATT" library="bt_con-jst-xh" package="B2B-XH" value="02-JST-B2B-XH-A" x="6.985" y="3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.795" y="7.62" size="1.27" layer="21" rot="R270"/>
+<element name="BATT" library="bt_con-jst-xh" package="B2B-XH" value="02-JST" x="10.795" y="3.81" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.985" y="2.54" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="LCDBL" library="bt_con-jst-xh" package="B2B-XH" value="02-JST-B2B-XH-A" x="6.985" y="44.45" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.795" y="48.26" size="1.27" layer="21" rot="R270"/>
+<element name="LCDBL" library="bt_con-jst-xh" package="B2B-XH" value="02-JST" x="10.795" y="43.815" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.985" y="42.545" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="LIGHTS" library="bt_con-jst-xh" package="B3B-XH" value="03-JST-B3B-XH-A" x="6.985" y="15.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.795" y="17.78" size="1.27" layer="21" rot="R270"/>
+<element name="LIGHTS" library="bt_con-jst-xh" package="B3B-XH" value="03-JST-B3B-XH-A" x="10.795" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.985" y="12.7" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="MBD" library="bt_con-jst-xh" package="B3B-XH" value="03-JST-B3B-XH-A" x="6.985" y="35.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.795" y="38.1" size="1.27" layer="21" rot="R270"/>
+<element name="MBD" library="bt_con-jst-xh" package="B3B-XH" value="03-JST-B3B-XH-A" x="10.795" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.985" y="33.02" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="R1" library="resistor" package="0207/10" value="70k" x="3.175" y="24.765" rot="R90"/>
-<element name="R2" library="resistor" package="0207/10" value="50k" x="3.175" y="38.1" rot="R90"/>
-<element name="SENSORS" library="bt_con-jst-xh" package="B2B-XH" value="02-JST-B2B-XH-A" x="6.985" y="24.13" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.795" y="27.94" size="1.27" layer="21" rot="R270"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/10" value="5.6k" x="3.175" y="24.765" rot="R90"/>
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/10" value="3.9k" x="3.175" y="38.1" rot="R90"/>
+<element name="SENSORS" library="bt_con-jst-xh" package="B2B-XH" value="02-JST" x="10.795" y="24.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.985" y="22.86" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="U$1" library="_custom" package="LM2596-BOARD" value="LM2596-BOARD" x="13.97" y="5.08"/>
-<element name="U$2" library="frames" package="A5L-LOC" value="" x="-63.5" y="-48.26"/>
+<element name="U$2" library="frames" library_urn="urn:adsk.eagle:library:229" package="A5L-LOC" value="" x="-63.5" y="-48.26"/>
 </elements>
 <signals>
 <signal name="+5V">
-<contactref element="LIGHTS" pad="P$3"/>
 <contactref element="MBD" pad="P$2"/>
 <contactref element="LCDBL" pad="P$2"/>
 <polygon width="0.4064" layer="1">
@@ -1489,6 +1488,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="0" y="0"/>
 </polygon>
 <contactref element="U$1" pad="VOUT"/>
+<contactref element="LIGHTS" pad="P$2"/>
 </signal>
 <signal name="GND">
 <contactref element="BATT" pad="P$1"/>
@@ -1509,35 +1509,34 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="+12V">
 <contactref element="BATT" pad="P$2"/>
 <contactref element="SENSORS" pad="P$2"/>
-<contactref element="LIGHTS" pad="P$2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U$1" pad="VIN"/>
-<wire x1="3.25" y1="18.75" x2="6.75" y2="15.25" width="0.2032" layer="16"/>
 <wire x1="3.25" y1="19.5" x2="3.25" y2="18.75" width="0.2032" layer="16"/>
-<wire x1="6.75" y1="15.25" x2="6.985" y2="15.24" width="0.2032" layer="16"/>
 <wire x1="3.25" y1="19.5" x2="3.175" y2="19.685" width="0.2032" layer="16"/>
 <wire x1="3.25" y1="20.5" x2="6.75" y2="24" width="0.2032" layer="16"/>
 <wire x1="3.25" y1="19.75" x2="3.25" y2="20.5" width="0.2032" layer="16"/>
-<wire x1="6.75" y1="24" x2="6.985" y2="24.13" width="0.2032" layer="16"/>
+<wire x1="6.75" y1="24" x2="10.795" y2="24.13" width="0.2032" layer="16"/>
 <wire x1="3.25" y1="19.75" x2="3.175" y2="19.685" width="0.2032" layer="16"/>
-<wire x1="9.5" y1="6.5" x2="7" y2="4" width="0.2032" layer="1"/>
-<wire x1="15.5" y1="6.5" x2="9.5" y2="6.5" width="0.2032" layer="1"/>
-<wire x1="7" y1="4" x2="6.985" y2="3.81" width="0.2032" layer="1"/>
-<wire x1="15.5" y1="6.5" x2="15.51" y2="6.62" width="0.2032" layer="1"/>
-<wire x1="15.5" y1="6.5" x2="7" y2="15" width="0.2032" layer="16"/>
-<wire x1="7" y1="15" x2="6.985" y2="15.24" width="0.2032" layer="16"/>
-<wire x1="15.5" y1="6.5" x2="15.51" y2="6.62" width="0.2032" layer="16"/>
+<contactref element="LIGHTS" pad="P$3"/>
+<wire x1="10.795" y1="12.7" x2="5.08" y2="12.7" width="0.2032" layer="1"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="3.81" width="0.2032" layer="1"/>
+<wire x1="5.08" y1="3.81" x2="10.795" y2="3.81" width="0.2032" layer="1"/>
+<wire x1="3.25" y1="18.75" x2="3.175" y2="18.75" width="0.2032" layer="16"/>
+<wire x1="3.175" y1="18.75" x2="3.175" y2="12.7" width="0.2032" layer="16"/>
+<wire x1="3.175" y1="12.7" x2="10.795" y2="12.7" width="0.2032" layer="16"/>
+<wire x1="10.795" y1="3.81" x2="15.51" y2="3.81" width="0.2032" layer="1"/>
+<wire x1="15.51" y1="3.81" x2="15.51" y2="6.62" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="MBD" pad="P$3"/>
-<wire x1="3.25" y1="33.25" x2="6.75" y2="33.25" width="0.2032" layer="1"/>
-<wire x1="6.75" y1="33.25" x2="6.985" y2="33.02" width="0.2032" layer="1"/>
-<wire x1="3.25" y1="33.25" x2="3.175" y2="33.02" width="0.2032" layer="1"/>
 <wire x1="3.25" y1="33" x2="3.25" y2="30" width="0.2032" layer="1"/>
 <wire x1="3.25" y1="30" x2="3.175" y2="29.845" width="0.2032" layer="1"/>
-<wire x1="3.25" y1="33" x2="3.175" y2="33.02" width="0.2032" layer="1"/>
+<wire x1="3.25" y1="33" x2="8.255" y2="33" width="0.2032" layer="1"/>
+<wire x1="8.255" y1="33" x2="10.795" y2="33.02" width="0.2032" layer="1"/>
+<wire x1="3.25" y1="33" x2="3.175" y2="33" width="0.2032" layer="1"/>
+<wire x1="3.175" y1="33" x2="3.175" y2="33.02" width="0.2032" layer="1"/>
 </signal>
 </signals>
 </board>
@@ -1546,6 +1545,11 @@ Please make sure your boards conform to these design rules.</description>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, Eagle supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
 </note>
 </compatibility>
 </eagle>
