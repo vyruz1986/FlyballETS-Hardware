@@ -1,0 +1,67 @@
+Source:	C:/Users/alexg/OneDrive/Projects/Schematics/FlyballETS-Hardware/FlyballETS-HW.sch
+Date:	06/28/18 22:32:41
+Tool:	Eeschema 4.0.7
+Component Count:	62
+Ref	Value	Part	Footprint	Description	Vendor
+C1	1000uF	device:CP1	Capacitors_THT:CP_Radial_D10.0mm_P5.00mm	Polarised capacitor	
+D1	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D2	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D3	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D4	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D5	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D6	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D7	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D8	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D9	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D10	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D11	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D12	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D13	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D14	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D15	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D16	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D17	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D18	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D19	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D20	D	device:D	Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+J1	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J2	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J3	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J4	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J5	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J6	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J7	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J8	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J9	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J10	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J11	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J12	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J13	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J14	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J15	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J16	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J17	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J18	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J19	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J20	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J21	CONN_01X02	FlyballETS-HW-cache:CONN_01X02	Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight		
+J22	CONN_01X02	FlyballETS-HW-cache:CONN_01X02	Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight		
+J23	CONN_01X02	FlyballETS-HW-cache:CONN_01X02	Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight		
+J24	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+J25	CONN_02X09	FlyballETS-HW-cache:CONN_02X09	MyStuff:IDC_Header_Straight_18pins		
+J26	CONN_01X08	FlyballETS-HW-cache:CONN_01X08	Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm		
+J27	CONN_01X02	FlyballETS-HW-cache:CONN_01X02	Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight		
+J28	Conn_01x04	conn:Conn_01x04	Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm	Generic connector, single row, 01x04	
+J29	CONN_01X03	FlyballETS-HW-cache:CONN_01X03	Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight		
+R1	500	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R2	330	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R3	1k	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R4	1k	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R5	330	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R6	500	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R7	10k	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R8	33k	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+R9	300	device:R	Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	Resistor	
+RV1	10k	device:POT_TRIM	MyModules:R_TRIM_3362P	Trim-Potentiometer	
+U1	Wemos_LoLin32	FlyballETS-HW-cache:Wemos_LoLin32	Wemos:LoLin_32_Board		
+U2	DC-DCStepdown-LM2596	MyStuff:DC-DCStepdown-LM2596	MyStuff:LM2596-DC-DC-Stepdown-Module		
